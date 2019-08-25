@@ -3,7 +3,7 @@ path=r"C:\\webdrivers\\chromedriver"
 driver = webdriver.Chrome(path)
 driver.get('http://web.whatsapp.com')
 
-n=int(input("Enter number of times : "))
+n=int(input("Enter number of times you want to run this prog : "))
 
 for i in range(1,n):
     name = input('Enter the name of user or group : ')
